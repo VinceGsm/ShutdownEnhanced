@@ -3,16 +3,21 @@ using System.Windows.Forms;
 
 namespace ShutdownEnhanced
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
-
+        
         private void btnShutdown_Click(object sender, EventArgs e)
         {
-            lblShutdown.Text = "Ciao !";
+            
+        }        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }
