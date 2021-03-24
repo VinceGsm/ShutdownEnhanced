@@ -12,12 +12,23 @@ namespace ShutdownEnhanced
         
         private void btnShutdown_Click(object sender, EventArgs e)
         {
-            
-        }        
+            string input = inputTxt.Text;
+            int timerInSec = 1800; // default 30mn
 
-        private void timer1_Tick(object sender, EventArgs e)
+            if (!string.IsNullOrEmpty(input))
+                timerInSec = int.Parse(input) * 60;
+
+            System.Diagnostics.Process.Start("shutdown", $"/s /t {timerInSec}");         
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("shutdown", "/a");
         }
     }
 }
