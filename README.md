@@ -9,12 +9,14 @@ If you close the application you can always reopen it to cancel the shutdown tim
 
 *This is a Windows only application.*
 
-## FR
+## FR version
 
 Un timer d'extinction de `30mn` se mettra en place si vous ne renseignez pas de valeur personnalisée.
 
 Si vous fermer l'application vous pouvez toujours la réouvrir pour annuler le timer d'extinction.
 
 *Application Windows uniquement.*
+
+-----------------
 
 Designed and coded by [Vince](https://github.com/VinceGusmini).
