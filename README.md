@@ -19,4 +19,4 @@ Si vous fermer l'application vous pouvez toujours la réouvrir pour annuler le t
 
 -----------------
 
-Designed and coded by [Vince](https://github.com/VinceGusmini).
+Designed and coded by [Vince](https://github.com/VinceGsmn).
