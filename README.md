@@ -9,6 +9,9 @@ If you close the application you can always reopen it to cancel the shutdown tim
 
 *This is a Windows only application.*
 
+![image](https://github.com/VinceGsm/ShutdownEnhanced/assets/29730840/cc325148-1bb9-4810-8cce-4facd7ec03b4)
+
+
 ## FR version
 
 Un timer d'extinction de `30mn` se mettra en place si vous ne renseignez pas de valeur personnalisée.
